@@ -1,0 +1,7 @@
+pages\ChallengingDOMPage.class
+pages\FileUploadPage.class
+tests\FileUploadTest.class
+pages\ShiftingContentPage.class
+pages\ShiftingContentImagePage.class
+tests\ChallengingDOMTest.class
+tests\ShiftingContentTest.class
