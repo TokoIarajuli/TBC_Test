@@ -36,7 +36,7 @@ public class FileUploadPage {
     }
 
     public void uploadFile() {
-        uploadElement.sendKeys("C:\\Users\\user\\Desktop\\pic.jpg");
+        uploadElement.sendKeys("C:\\Users\\user\\IdeaProjects\\TBC_Test\\src\\test\\java\\assets\\pic.jpg");
         submitButton.click();
     }
 
