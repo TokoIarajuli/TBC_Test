@@ -4,8 +4,6 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Story;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
-import org.junit.BeforeClass;
-import org.openqa.selenium.support.PageFactory;
 import pages.FileUploadPage;
 
 import io.qameta.allure.Description;

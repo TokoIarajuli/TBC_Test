@@ -2,18 +2,14 @@ package tests;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
-import io.qameta.allure.Story;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.ChallengingDOMPage;
 
-import java.util.Arrays;
 
 @Epic("Challenging DOM Epic")
 public class ChallengingDOMTest {
