@@ -23,6 +23,9 @@ public class ShiftingContentImagePage {
     @FindBy(how = How.XPATH, using = "//*[@id=\"content\"]/div/p[3]/a")
     private WebElement clickHere;
 
+    @FindBy(how = How.XPATH, using = "//*[@id=\"content\"]/div/img")
+    private WebElement Image;
+
     public ShiftingContentImagePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver,this);
@@ -37,14 +40,12 @@ public class ShiftingContentImagePage {
     }
 
     public void getCoordinatesBeforeClick() {
-        WebElement Image = driver.findElement(By.xpath("//*[@id=\"content\"]/div/img"));
         Point classname = Image.getLocation();
         xCordBefore = classname.getX();
     }
 
     public void getCoordinatesAfterClick() {
         clickHere.click();
-        WebElement Image = driver.findElement(By.xpath("//*[@id=\"content\"]/div/img"));
         Point classname = Image.getLocation();
         xCordAfter = classname.getX();
     }

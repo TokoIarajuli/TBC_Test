@@ -41,7 +41,6 @@ public class FileUploadPage {
     }
 
     public void checkUpload() {
-        System.out.println(message.getText());
         assertThat(message.getText(), is("File Uploaded!"));
     }
 
